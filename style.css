@@ -78,6 +78,7 @@ nav{
     width: 40%;
     display: flex;
     justify-content: space-between;
+    margin-left: 9%;
 }
 .menu a{
     color: white;
