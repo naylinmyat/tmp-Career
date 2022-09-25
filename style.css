@@ -29,7 +29,7 @@ body{
     font-family: 'Karla', sans-serif;
 }
 p{
-    color: rgb(128, 125, 125);
+    color: #84899d;
     font-weight: lighter;
 }
 h1{
@@ -196,7 +196,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
     font-size: 4rem;
 }
 .hero-body-content > p{
-    color: rgb(204, 199, 199);
+    color: whitesmoke;
     margin: 2% 0 4% 0;
 }
 .hero-body-content .mobile-view-hero-paragraph{
@@ -234,9 +234,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
 }
 .video-section-content > img{
     position: absolute;
-    width: 25%;
-    top: -12%;
-    right: -4%;
+    width: 12%;
+    top: -6%;
+    right: -2%;
     z-index: 1;
 }
 .video-section-text-and-button{
@@ -448,6 +448,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
 .CTA-content .text-group{
     width: 50%;
 }
+.CTA-content h2{
+    font-size: 2rem;
+}
 .CTA-content p{
     padding-top: 2%;
 }
@@ -519,7 +522,7 @@ nav .nav-content-mobile-view .signup-btn:hover{
 .phone-number span,
 .email span{
     margin-left: 5%;
-    color: rgb(107, 104, 104);
+    color:  #84899d;
 }
 .footer-text{
     text-align: center;
@@ -528,6 +531,31 @@ nav .nav-content-mobile-view .signup-btn:hover{
     font-size: 0.8rem;
 }
 /* Footer end */
+
+@media (min-width: 1500px){
+    :root{
+        font-size: 16px;
+    }
+    /* Video Section start */
+    .video-section-content > img{
+        top: -7%;
+    }
+    .video-section-text-and-button{
+        width: 40%;
+        line-height: 1.5;
+    }
+    /* Video Section end */
+
+    .CTA-content h2{
+        font-size: 3.2rem;
+    }
+}
+
+@media (max-width: 1499px){
+    .CTA-content h2{
+        font-size: 2.8rem;
+    }
+}
 
 @media (max-width: 1200px){
     .users-bulk,
@@ -538,6 +566,9 @@ nav .nav-content-mobile-view .signup-btn:hover{
     }
     .factor .normal-text{
         font-size: 0.8rem;
+    }
+    .CTA-content h2{
+        font-size: 2rem;
     }
 }
 
